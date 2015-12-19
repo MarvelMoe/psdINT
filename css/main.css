@@ -1,0 +1,330 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ececec;
+}
+nav {
+	background: #ececec;
+	height: 100px;
+}
+
+nav ul {
+float: right;
+font-family: sans-serif;
+}
+
+nav ul li {
+	float: left;
+	display: inline-block;
+	margin: 20px 30px 0px 0px;
+	color: #998192;
+}
+nav a {
+	text-decoration: none;
+}
+nav li a { 
+	color: #888888;
+
+}
+
+#liquid {
+	position: absolute;
+	top: 30px;
+	left:60px;
+	font-family: cursive;
+	font-size: 22px;
+	font-weight: bold;
+	color:#202020 
+}
+hr {
+	margin: -1px;
+    background-color: #ececec;
+    width: 95%;
+    position: absolute;
+    left: 20px
+}
+
+#main {
+	background-color: #ececec;
+}
+
+
+
+header {
+	text-align: center;
+	position: absolute;
+	top: 120px;
+	left: 230px
+}
+header h2 {
+	color: #484848  ;
+padding-top: 30px;
+margin:0;} 
+
+header h3 {
+	color: #484848 ;
+padding-top:10px;
+margin: 0}
+
+header span {
+	color: #F08080;
+	font-weight: bold;
+}
+section img {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+i{
+	color: #F08080;
+	position: absolute;
+	top: 40px;
+	left: 20px
+}
+
+.aboutwork {
+	text-align: center;
+	
+	padding-top: 70px;
+
+}
+#me {
+width: 40%;
+position: absolute;
+	    top: 450px;
+	padding:20px 30px 0 30px;
+}
+#my {
+width: 40%;
+position: absolute;
+	top: 450px;
+	left: 50%;
+	padding:20px 30px 0 30px;
+}
+
+.aboutwork h2{
+	font-weight: bold;
+	color:#F08080;
+	font-family: cursive;
+}
+
+/* IMAGES */
+#atepics {
+	text-align: center;
+	display: inline-block;
+	margin-top: 168px;
+	   margin-left: 25px;
+}
+
+
+#workBox1 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/spain.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	    margin-bottom: 30px;
+
+}
+#workBox2 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/zebra.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	    margin-bottom: 30px;
+
+}
+#workBox3 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/ship.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+
+}
+
+#workBox4 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/motor.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+#workBox5 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/man.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+#workBox6 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/barb.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+#workBox7 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/xmen.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+#workBox8 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/apc.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+#workBox9 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 200px;
+	border-radius: 4px;
+	background-image: url("../img/awake.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+#workBox10 {
+	float: left;
+	padding: 10px;
+	width: 245px;
+	height: 140px;
+	border-radius: 4px;
+	background-image: url("../img/force.jpg");
+	 background-size: 180px 150px;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.whitebox 
+ {
+    width: 183px;
+    height: 50px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+    position: relative;
+    top: 120px;
+    right: 12px;
+    text-align: left;
+}
+
+.whitebox span {
+	color: pink;
+	font-size: 12px
+}
+.whitebox h4 {
+	padding-left: 10px
+}
+
+.whitebox2
+ {
+    width: 183px;
+    height: 50px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 4px;
+    position: relative;
+    top: 120px;
+    right: 12px;
+    text-align: left;
+}
+
+.whitebox2 span {
+	color: pink;
+	font-size: 12px
+}
+.whitebox2 h4 {
+	padding-left: 10px
+
+}
+
+#thanks {
+	text-align: center;
+	font-family: cursive;
+	color: #F08080;
+	height:70px;
+	   padding: 20px;
+
+}
+
+/*Bottom*/
+
+#footer  {
+      background-color: #2e2e2e;   
+      height: 120px;       
+      color: #111;
+     width:1400px;
+     padding-top: 35px;
+     padding-left: 20px;
+     padding-bottom:50px;
+     text-align: left;
+		}
+	
+	.wrap {
+		padding-bottom: 30px 0;
+	margin:30px 0 ;
+	height: 150px
+
+}
+
+label {
+	width: 80px;
+	color: red
+}
+
+#message {
+	height: 50px;
+	width: 310px
+}
+
+button {
+	position: relative;
+	 bottom: -40px;
+    left: -320px;
+}
+
+
